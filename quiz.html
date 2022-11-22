@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attempt Quiz</title>
+    <link rel="stylesheet" href="/css/quiz.css">
+    <script src="https://kit.fontawesome.com/f6d46fd402.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+        <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+    <div class="q-container">
+        <label id="question-label">What is the third angle for the triangle where Angle 1 = 45° and Angle 2 = 45°?</label>
+        <input class="radio" type="radio" name="question-1" value="45">45°</input>
+        <input class="radio" type="radio" name="question-1" value="90">90°</input>
+        <input class="radio" type="radio" name="question-1" value="60">60°</input>
+    </div>
+    <div class="q-container">
+        <label id="question-label">If a triangle has an angle of 90 degrees, what is it called?</label>
+        <input class="radio" type="radio" name="question-2" value="obtuse">Obtuse</input>
+        <input class="radio" type="radio" name="question-2" value="acute">Acute</input>
+        <input class="radio" type="radio" name="question-2" value="rightangled">Right Angled</input>
+    </div>
+    <div class="q-container">
+        <label id="question-label">A triangle in which two sides are equal is called:</label>
+        <input class="radio" type="radio" name="question-3" value="isosceles">Isosceles</input>
+        <input class="radio" type="radio" name="question-3" value="equilateral">Equilateral</input>
+        <input class="radio" type="radio" name="question-3" value="scalene">Scalene</input>
+    </div>
+    <div class="q-container">
+        <label id="question-label">If one angle of a triangle is obtuse, the triangle is called</label>
+        <input class="radio" type="radio" name="question-4" value="obtuse">Obtuse</input>
+        <input class="radio" type="radio" name="question-4" value="acute">Acute</input>
+        <input class="radio" type="radio" name="question-4" value="rightangled">Right Angled</input>
+    </div>
+    <div class="q-container">
+        <label id="question-label">The total measure of the three angles of a triangle is</label>
+        <input class="radio" type="radio" name="question-5" value="360">360°</input>
+        <input class="radio" type="radio" name="question-5" value="90">90°</input>
+        <input class="radio" type="radio" name="question-5" value="180">180°</input>
+    </div>
+    </form>
+    <button id="quiz-button">View Score</button>
+    <div class="output" id="quiz-output"></div>
+  
+    </div>
+  </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="/images/student.svg" id="profile-pic" height="150" width="150">
+                <h3 id="student-name"></h3>
+                <p id="student-course"></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="./dashboardStudent.html" >
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="quiz.html" class="active">
+                        <span class="icon"><i class="fa-sharp fa-solid fa-list-check"></i></span>
+                        <span class="item">Attempt Quiz</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./studentviewtimetable.html" >
+                        <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
+                        <span class="item">View Timetable</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./studentviewmarks.html" >
+                        <span class="icon"><i class="fa-solid fa-square-poll-vertical"></i></span>
+                        <span class="item">View Marks
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./studentProfile.html">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <span class="item">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="register.html">
+                        <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                        <span class="item">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="/js/quiz.js" type="module"></script>
+</body>
+</html>

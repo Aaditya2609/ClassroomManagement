@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="/css/studenttimetable.css">
+    <script src="https://kit.fontawesome.com/f6d46fd402.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+        <h1>Timetable:</h1>
+        <div id="table">
+                <table>
+                    <tr>
+                        <th>
+                            Teacher
+                        </th>
+                        <th>Subject</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                    </tr>
+                    <tr>
+                        <td id="sub1teacher"></td>
+                        <td id="sub1"></td>
+                        <td id="sub1mon"></td>
+                        <td id="sub1tue"></td>
+                        <td id="sub1wed"></td>
+                        <td id="sub1thu"></td>
+                        <td id="sub1fri"></td>
+                        <td id="sub1sat"></td>
+                    </tr>
+                    <tr>
+                        <td id="sub2teacher"></td>
+                        <td id="sub2"></td>
+                        <td id="sub2mon"></td>
+                        <td id="sub2tue"></td>
+                        <td id="sub2wed"></td>
+                        <td id="sub2thu"></td>
+                        <td id="sub2fri"></td>
+                        <td id="sub2sat"></td>
+                    </tr>
+                    <tr>
+                        <td id="sub3teacher"></td>
+                        <td id="sub3"></td>
+                        <td id="sub3mon"></td>
+                        <td id="sub3tue"></td>
+                        <td id="sub3wed"></td>
+                        <td id="sub3thu"></td>
+                        <td id="sub3fri"></td>
+                        <td id="sub3sat"></td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="profile">
+        <img src="/images/student.svg" id="profile-pic" height="150" width="150">
+        <h3 id="student-name"></h3>
+        <p id="student-course"></p>
+    </div>
+    <ul>
+        <li>
+            <a href="./dashboardStudent.html" >
+                <span class="icon"><i class="fas fa-home"></i></span>
+                <span class="item">Home</span>
+            </a>
+        </li>
+        <li>
+            <a href="quiz.html">
+                <span class="icon"><i class="fa-sharp fa-solid fa-list-check"></i></span>
+                <span class="item">Attempt Quiz</span>
+            </a>
+        </li>
+        <li>
+            <a href="./studentviewtimetable.html" class="active">
+                <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
+                <span class="item">View Timetable</span>
+            </a>
+        </li>
+        <li>
+            <a href="./studentviewmarks.html" >
+                <span class="icon"><i class="fa-solid fa-square-poll-vertical"></i></span>
+                <span class="item">View Marks
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="./studentProfile.html">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <span class="item">My Profile</span>
+            </a>
+        </li>
+        <li>
+            <a href="register.html">
+                <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                <span class="item">Logout</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</div>
+    <script src="/js/studentviewtimetable.js" type="module"></script>
+</body>
+</html>

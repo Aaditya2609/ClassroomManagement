@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/profile.css">
+    <script src="https://kit.fontawesome.com/f6d46fd402.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <h1>My Profile</h1>
+    <div class="container-card">
+        <div class="avatar-flip">
+          <img src="/images/student.svg" height="150" width="150">
+          <img src="/images/teacheranimated.gif" height="150" width="150">
+        </div>
+        <h2 id="student-name-card"></h2>
+        <h4 id="student-course-card"></h4>
+        <p id="student-subject1"></p>
+        <p id="student-subject2"></p>
+        <p id="student-subject3"></p>
+        <p id="student-mail"></p>
+        <button id="home"><span class="icon"><i class="fas fa-home"></i></span>
+                <span class="item">Home</span>
+        </button>
+  </div>
+  
+        <div class="sidebar">
+            <div class="profile">
+                <img src="/images/student.svg" id="profile-pic" height="150" width="150">
+                <h3 id="student-name"></h3>
+                <p id="student-course"></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="./dashboardStudent.html" >
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="quiz.html">
+                        <span class="icon"><i class="fa-sharp fa-solid fa-list-check"></i></span>
+                        <span class="item">Attempt Quiz</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./studentviewtimetable.html" >
+                        <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
+                        <span class="item">View Timetable</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./studentviewmarks.html" >
+                        <span class="icon"><i class="fa-solid fa-square-poll-vertical"></i></span>
+                        <span class="item">View Marks
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./studentProfile.html" class="active">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <span class="item">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="register.html">
+                        <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                        <span class="item">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="/js/studentprofile.js" type="module"></script>
+</body>
+</html>

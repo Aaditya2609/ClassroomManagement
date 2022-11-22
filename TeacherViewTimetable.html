@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="/css/teachertimetable.css">
+    <script src="https://kit.fontawesome.com/f6d46fd402.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+        <h1>Timetable:</h1>
+        <div id="table">
+        </div>
+    </div>
+  </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="/images/teacherprofile.svg" id="profile-pic" height="150" width="150">
+                <h3 id="teacher-name"></h3>
+                <p id="teacher-post"></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="/dashboardTeacher.html">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/viewStudents.html" >
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="item">View Students</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="TeacherViewTimetable.html" class="active">
+                        <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
+                        <span class="item">View Timetable</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="TeacherViewMarks.html">
+                        <span class="icon"><i class="fa-solid fa-square-poll-vertical"></i></span>
+                        <span class="item">Exam Marks
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/teacherProfile.html">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <span class="item">My Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="register.html">
+                        <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                        <span class="item">Logout</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        
+    </div>
+    <script src="/js/teacherviewtimetable.js" type="module"></script>
+</body>
+</html>
